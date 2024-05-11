@@ -30,9 +30,6 @@
         android:padding="16dp" />
 
 
-
-
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
         android:layout_width="375dp"

@@ -15,18 +15,17 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:text="Add Note"
-        android:textColor="@color/orange"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/saveButton"
-        android:layout_width="384dp"
-        android:layout_height="715dp"
-        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-32dp"
-        android:layout_marginEnd="11dp"
-        android:src="@drawable/background2" />
+        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_marginEnd="6dp" />
 
     <EditText
         android:id="@+id/titleEditText"
